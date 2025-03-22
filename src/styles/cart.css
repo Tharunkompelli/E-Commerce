@@ -1,0 +1,27 @@
+.cart-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgb(29, 235, 207);
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-form input, .cart-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cart-form button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-form button:hover {
+  background-color: #e04e4e;
+}

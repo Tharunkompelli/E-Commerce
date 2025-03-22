@@ -1,0 +1,26 @@
+.home-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("client\src\assets\images.jpeg"); /* Change to your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Ensures text is visible */
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-card {
+  background: rgba(0, 0, 0, 0.7); /* Slight transparency for better readability */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
